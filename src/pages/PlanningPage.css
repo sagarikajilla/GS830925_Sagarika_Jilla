@@ -1,0 +1,61 @@
+.planning-page {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.planning-page h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+  color: #333;
+}
+
+.planning-grid {
+  width: 100%;
+  height: 600px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 4px;
+}
+
+/* Conditional formatting for GM % column */
+.green-cell {
+  background-color: lightgreen !important;
+}
+
+.yellow-cell {
+  background-color: yellow !important;
+}
+
+.orange-cell {
+  background-color: orange !important;
+}
+
+.red-cell {
+  background-color: red !important;
+}
+
+
+
+/* src/pages/PlanningPage.css */
+.planning-page {
+  padding: 20px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+.planning-page h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+  color: #333;
+}
+
+.planning-grid {
+  width: 100%;
+  height: 600px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+

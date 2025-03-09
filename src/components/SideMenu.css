@@ -1,0 +1,62 @@
+.side-menu {
+  width: 200px;
+  background: #f9f9f9;
+  border-right: 1px solid #ddd;
+  padding: 10px;
+  transition: transform 0.3s ease;
+}
+
+/* Desktop default: side menu visible */
+@media (min-width: 769px) {
+  .side-menu {
+    position: static;
+    transform: translateX(0);
+  }
+}
+
+/* On small screens, position absolute and slide in/out */
+@media (max-width: 768px) {
+  .side-menu {
+    position: absolute;
+    top: 60px; /* same height as nav-bar */
+    left: 0;
+    height: calc(100% - 60px);
+    transform: translateX(-100%);
+    z-index: 999; /* on top of content */
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+  }
+  .side-menu.open {
+    transform: translateX(0);
+  }
+}
+
+.side-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.side-menu li {
+  margin-bottom: 10px;
+}
+
+.side-menu a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.side-menu a.active {
+  background: #eee;
+  font-weight: bold;
+}
+
+.menu-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}

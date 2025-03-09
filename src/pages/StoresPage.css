@@ -1,0 +1,76 @@
+.stores-page {
+  padding: 20px;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.stores-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+.stores-table th,
+.stores-table td {
+  border: 1px solid #ddd;
+  padding: 2px;
+  text-align: left;
+}
+
+.action-icons {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.action-icons button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 2px 6px;
+}
+
+.trash-icon {
+  width: 14px;
+  height: 14px;
+}
+
+.new-store-container {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.new-store-btn {
+  background: #ff6f3c;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+/* src/styles/StoresPage.css */
+.stores-page {
+  padding: 20px;
+}
+
+.stores-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+.stores-table th,
+.stores-table td {
+  border: 1px solid #ddd;
+  padding: 2px;
+  text-align: left;
+}
+
+
+

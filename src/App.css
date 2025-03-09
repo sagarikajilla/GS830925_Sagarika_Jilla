@@ -1,0 +1,23 @@
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 1080px; /* Minimum width requirement */
+  margin: 0 auto;    /* Center the app on larger screens */
+  height: 100vh;
+}
+
+.main-layout {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  margin: 20px; /* Reasonable margin around the main layout */
+}
+
+.page-content {
+  flex: 1;
+  padding: 20px; /* Adequate padding around content */
+  background: #fff;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
