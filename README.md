@@ -3,9 +3,11 @@ This PWA, built with React, TypeScript, and Redux, manages Stores, SKUs, Plannin
 ## How to Run and Test
 
 Test the App:
+
 Log in with:
-Username: demo
-Password: demo123
+
+Username: demo  Password: demo123
+
 Use the sidebar to switch between pages (Stores, SKUs, Planning, Charts).
 Data changes (add/edit/delete/reorder) persist across refreshes.
 Highlights
@@ -21,10 +23,13 @@ A custom authentication flow using React Context protects routes, ensuring secur
 Future Improvements
 Enhanced UI/UX:
 Integrate a UI library (e.g., Material-UI) for a more polished look.
+
 Comprehensive Testing:
 Add unit/integration tests with Jest and React Testing Library.
+
 Performance Optimizations:
 Optimize AG Grid for larger datasets (virtualization, lazy loading).
+
 Robust Error Handling:
 Implement advanced error logging (e.g., Sentry) and user-friendly error messages.
 
